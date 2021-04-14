@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Expendedora.Libreria\Expendedora.Libreria.csproj">
+      <Project>{d842f296-fa4c-4910-bbbe-16f64ecad574}</Project>
+      <Name>Expendedora.Libreria</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

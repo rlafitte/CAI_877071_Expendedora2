@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expendedora.Consola", "Expendedora.Consola\Expendedora.Consola.csproj", "{DDF76F89-BB4F-470E-8D75-C3F379609DC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expendedora.Libreria", "Expendedora.Libreria\Expendedora.Libreria.csproj", "{D842F296-FA4C-4910-BBBE-16F64ECAD574}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DDF76F89-BB4F-470E-8D75-C3F379609DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDF76F89-BB4F-470E-8D75-C3F379609DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDF76F89-BB4F-470E-8D75-C3F379609DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D842F296-FA4C-4910-BBBE-16F64ECAD574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D842F296-FA4C-4910-BBBE-16F64ECAD574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D842F296-FA4C-4910-BBBE-16F64ECAD574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D842F296-FA4C-4910-BBBE-16F64ECAD574}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
