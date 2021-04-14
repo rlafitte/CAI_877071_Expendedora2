@@ -1,0 +1,10 @@
+C:\Users\renar\Desktop\CAI\QuintaClase2\CAI_877071_Expendedora2\Expendedora\Expendedora.Consola\bin\Debug\Expendedora.Consola.exe.config
+C:\Users\renar\Desktop\CAI\QuintaClase2\CAI_877071_Expendedora2\Expendedora\Expendedora.Consola\bin\Debug\Expendedora.Consola.exe
+C:\Users\renar\Desktop\CAI\QuintaClase2\CAI_877071_Expendedora2\Expendedora\Expendedora.Consola\bin\Debug\Expendedora.Consola.pdb
+C:\Users\renar\Desktop\CAI\QuintaClase2\CAI_877071_Expendedora2\Expendedora\Expendedora.Consola\bin\Debug\Expendedora.Libreria.dll
+C:\Users\renar\Desktop\CAI\QuintaClase2\CAI_877071_Expendedora2\Expendedora\Expendedora.Consola\bin\Debug\Expendedora.Libreria.pdb
+C:\Users\renar\Desktop\CAI\QuintaClase2\CAI_877071_Expendedora2\Expendedora\Expendedora.Consola\obj\Debug\Expendedora.Consola.csprojAssemblyReference.cache
+C:\Users\renar\Desktop\CAI\QuintaClase2\CAI_877071_Expendedora2\Expendedora\Expendedora.Consola\obj\Debug\Expendedora.Consola.csproj.CoreCompileInputs.cache
+C:\Users\renar\Desktop\CAI\QuintaClase2\CAI_877071_Expendedora2\Expendedora\Expendedora.Consola\obj\Debug\Expendedora.Consola.csproj.CopyComplete
+C:\Users\renar\Desktop\CAI\QuintaClase2\CAI_877071_Expendedora2\Expendedora\Expendedora.Consola\obj\Debug\Expendedora.Consola.exe
+C:\Users\renar\Desktop\CAI\QuintaClase2\CAI_877071_Expendedora2\Expendedora\Expendedora.Consola\obj\Debug\Expendedora.Consola.pdb

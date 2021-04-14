@@ -1,0 +1,5 @@
+C:\Users\renar\Desktop\CAI\QuintaClase2\CAI_877071_Expendedora2\Expendedora\Expendedora.Libreria\bin\Debug\Expendedora.Libreria.dll
+C:\Users\renar\Desktop\CAI\QuintaClase2\CAI_877071_Expendedora2\Expendedora\Expendedora.Libreria\bin\Debug\Expendedora.Libreria.pdb
+C:\Users\renar\Desktop\CAI\QuintaClase2\CAI_877071_Expendedora2\Expendedora\Expendedora.Libreria\obj\Debug\Expendedora.Libreria.csproj.CoreCompileInputs.cache
+C:\Users\renar\Desktop\CAI\QuintaClase2\CAI_877071_Expendedora2\Expendedora\Expendedora.Libreria\obj\Debug\Expendedora.Libreria.dll
+C:\Users\renar\Desktop\CAI\QuintaClase2\CAI_877071_Expendedora2\Expendedora\Expendedora.Libreria\obj\Debug\Expendedora.Libreria.pdb

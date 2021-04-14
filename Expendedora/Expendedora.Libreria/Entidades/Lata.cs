@@ -8,7 +8,7 @@ namespace Expendedora.Libreria.Entidades
 {
 
        public class Lata
-        {
+       {
             private string _codigo;
             private string _nombre;
             private string _sabor;
@@ -40,6 +40,18 @@ namespace Expendedora.Libreria.Entidades
                 _volumen = volumen;
                 _cantidad = cantidad;
             }   
+
+        public string ToString()
+        {
+            return $"{_nombre} - {_sabor} - $ {_precio} $/L{this.GetPrecioPorLitro()} - {_cantidad}";
         }
+
+        public double GetPrecioPorLitro()
+        {
+            double _prxltd;
+            _prxltd = (1000 * _precio / _volumen);
+            return _prxltd;
+        }
+       }
     }
 
