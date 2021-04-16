@@ -59,12 +59,21 @@ namespace Expendedora.Consola
             switch (i)
             {
                 case 1:
-                    E.ListarLatas();
+                    Console.WriteLine(E.ListarLatas());
                     break;
-                case 2: break;
-                case 3: break;
+                case 2: 
+                    IngresarLata();
+                    break;
+                case 3:
+                    Console.WriteLine(E.ListarLatas());
+                    Console.WriteLine("Ingrese el código de lata deseado: ");
+                    E.RetirarLata(Console.ReadLine());
+                    break;
+
                 case 4: break;
-                case 5: break;
+                case 5: 
+                    Console.WriteLine(E.ListadoCompleto());
+                    break;
                 case 99: break;
                 default: break;
 
@@ -104,6 +113,8 @@ namespace Expendedora.Consola
 
         static void ExtraerLata()
         {
+            Console.WriteLine("Ingrese el código de lata a retirar: ");
+            string _seleccion = Console.ReadLine();
 
         }
 

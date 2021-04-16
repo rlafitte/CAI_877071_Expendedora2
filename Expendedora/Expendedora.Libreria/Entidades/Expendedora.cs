@@ -29,11 +29,18 @@ namespace Expendedora.Libreria.Entidades
 
         public void AgregarLata(Lata L)
         {
-
+            _latas.Add(L);
         }
-        public void ExtraerLata(Lata L, double vuelto)
+        public void RetirarLata(string s)
         {
+            var aux = _latas.FirstOrDefault(i => i.Codigo == s);
+            if (aux != null)
+            {
+                aux.Cantidad--;
+            }
 
+            
+            //_latas.Remove
         }
 
         public string GetBalance()
@@ -70,7 +77,14 @@ namespace Expendedora.Libreria.Entidades
             string msg = "";
             foreach (Lata L in _latas)
             {
-                msg += L.Codigo + ")" + L.Nombre + "[" + L.Cantidad + "]";
+                if (L.Cantidad > 0)
+                {
+                    msg += L.Codigo + ")" + L.Nombre + "[" + L.Cantidad + "]" + Environment.NewLine;
+                }
+                else
+                {
+                    msg += L.Codigo + ")" + L.Nombre + "[" + L.Cantidad + "] --- SIN STOCK" + Environment.NewLine;
+                }
             }
             return msg;
         }
@@ -85,6 +99,15 @@ namespace Expendedora.Libreria.Entidades
             {
                 return false;
             }
+        }
+        public string ListadoCompleto()
+        {
+            string msg = "";
+            foreach(Lata L in _latas)
+            {
+                msg += L.ToString() + Environment.NewLine;
+            }
+            return msg;
         }
     }
 }
