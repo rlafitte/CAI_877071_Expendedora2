@@ -27,14 +27,18 @@ namespace Expendedora.Libreria.Excepciones
     }
     public class OperacionInvalida : Exception
     {
-
+        public OperacionInvalida() : base("La opción no es válida.") { }
     }
     public class MaquinaApagada : Exception
     {
-
+        public MaquinaApagada() : base("La expendedora está apagada.") { }
     }
     public class CodigoYaExistente : Exception
     {
 
+    }
+    public class YaEncendida : Exception
+    {
+        public YaEncendida() : base("La expendedora ya está encendida.") { }
     }
 }

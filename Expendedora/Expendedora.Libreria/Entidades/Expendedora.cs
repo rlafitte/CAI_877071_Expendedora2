@@ -3,20 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Expendedora.Libreria.Entidades;
+using Expendedora.Libreria.Excepciones;
 
 namespace Expendedora.Libreria.Entidades
 {
     public class Expendedora
     {
-        
+
         private bool _encendida = false;
-        private List<Lata> _latas = new List<Lata>();
+        private List<Lata> _latas;
         private string _proveedor;
-        private int _capacidad = 50; //arbitrariamente determinamos capacidad máxima en 50 latas en total
+        private int _capacidad; 
         private double _dinero;
+        
+
         public Expendedora()
         {
-            _encendida = true;
+
             _latas = new List<Lata>();
             _proveedor ="";
             _capacidad = 50;
@@ -44,7 +48,16 @@ namespace Expendedora.Libreria.Entidades
         }
         public void EncenderMaquina()
         {
-            Expendedora E = new Expendedora();
+            try
+            {
+            _encendida = true;
+
+            }
+            catch (YaEncendida ya)
+            {
+                
+            }
+
         }
         public bool EstaVacia()
         {
@@ -52,5 +65,26 @@ namespace Expendedora.Libreria.Entidades
             return flag;
         }
 
+        public string ListarLatas()
+        {
+            string msg = "";
+            foreach (Lata L in _latas)
+            {
+                msg += L.Codigo + ")" + L.Nombre + "[" + L.Cantidad + "]";
+            }
+            return msg;
+        }
+
+        public bool MaquinaEncendida()
+        {
+            if (_encendida)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
